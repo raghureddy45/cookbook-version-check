@@ -1,0 +1,63 @@
+{
+  "manifestVersion": 1,
+  "id": "Raghureddy45",
+  "name": "Cookbook Version",
+  "version": "1.0.0",
+  "publisher": "Raghureddy45",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "A build task that reads the version from the metadata.rb file and makes it available as build variables.",
+  "categories": [
+    "Build and release"
+  ],
+  "tags": [
+    "Chef",
+    "Version"
+  ],
+  "icons": {
+    "default": "images/cookbook.jpg"
+  },
+  "files": [
+    {
+      "path": "cookbook-version"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "readme.md"
+    },
+    "license": {
+      "path": "license"
+    }
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/Raghureddy4545/cookbook-version"
+    },
+    "support": {
+      "uri": "https://github.com/Raghureddy4545/cookbook-version/Issues"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/Raghureddy4545/cookbook-version"
+  },
+  "galleryFlags": [
+    "Public"
+  ],
+  "contributions": [
+    {
+      "id": "cookbook-version-reader-build-task",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "cookbook-version"
+      }
+    }
+  ]
+}
