@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "id": "Raghureddy45",
+  "id": "CookbookVersion",
   "name": "Cookbook Version",
   "version": "1.0.0",
   "publisher": "Raghureddy45",
@@ -11,7 +11,7 @@
   ],
   "description": "A build task that reads the version from the metadata.rb file and makes it available as build variables.",
   "categories": [
-    "Build and release"
+    "Azure Pipelines"
   ],
   "tags": [
     "Chef",
@@ -27,23 +27,23 @@
   ],
   "content": {
     "details": {
-      "path": "readme.md"
+      "path": "README.md"
     },
     "license": {
-      "path": "license"
+      "path": "LICENSE"
     }
   },
   "links": {
     "getstarted": {
-      "uri": "https://github.com/Raghureddy4545/cookbook-version"
+      "uri": "https://github.com/Raghureddy45/cookbook-version-check"
     },
     "support": {
-      "uri": "https://github.com/Raghureddy4545/cookbook-version/Issues"
+      "uri": "https://github.com/Raghureddy45/cookbook-version-check/Issues"
     }
   },
   "repository": {
     "type": "git",
-    "uri": "https://github.com/Raghureddy4545/cookbook-version"
+    "uri": "https://github.com/Raghureddy45/cookbook-version-check"
   },
   "galleryFlags": [
     "Public"
@@ -56,7 +56,7 @@
         "ms.vss-distributed-task.tasks"
       ],
       "properties": {
-        "name": "cookbook-version"
+        "name": "cookbook-version-check"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
-    "id": "9412DB6B-DB16-4748-A615-3B4C30B340C3",
-    "name": "CookbookVersionReader",
-    "friendlyName": "Chef Cookbook Version Reader",
+    "id": "CookbookVersion",
+    "name": "Cookbook Version",
+    "friendlyName": "Chef Cookbook Version Number Read",
     "description": "Reads the version from the metadata.rb file and makes it available as build variables.",
     "helpMarkDown": "",
     "category": "Utility",
@@ -9,7 +9,7 @@
       "Build",
       "Release"
     ],
-    "author": "wkdmoore",
+    "author": "Raghureddy45",
     "version": {
       "Major": 1,
       "Minor": 0,
